@@ -19,7 +19,7 @@ body {
     font-family: 'Varela Round', sans-serif;
   }
 
-/* Header Styles */
+
 header {
     background-color: #333;
     color: #fff;
@@ -92,6 +92,8 @@ ul:hover li a:not(:hover)
 
 .btn:hover {
     background-color: #ff8533;
+    transform: scale(1.1);
+    filter: drop-shadow(3px 3px 3px #da6b11c6);
 }
 
 /* Products Section Styles */
@@ -113,6 +115,10 @@ ul:hover li a:not(:hover)
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
+}
+.product img:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(3px 3px 3px rgb(244, 241, 241));
 }
 
 .product h3 {
@@ -169,6 +175,9 @@ ul:hover li a:not(:hover)
 
 blockquote {
     margin-bottom: 20px;
+}
+#reviews:hover{
+    transform: scale(1.1);
 }
 
 /* Footer Styles */
